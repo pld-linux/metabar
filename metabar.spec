@@ -7,8 +7,8 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/metabar/%{name}-%{version}.tar.gz
 # Source0-md5:  cf69531eb967caac6ea42ba47513d364
-#w pszysz³osci http://metabar.sourceforge.net
-URL:		http://sourceforge.net/projects/metabar
+# http://metabar.sourceforge.net/ in future
+URL:		http://sourceforge.net/projects/metabar/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
