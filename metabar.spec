@@ -11,10 +11,11 @@ Source0:	http://dl.sourceforge.net/metabar/%{name}-%{version}.tar.gz
 URL:		http://sourceforge.net/projects/metabar/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	kdelibs-devel >= 9:3.2.0
+BuildRequires:	kdebase-devel >= 9:3.2.0
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRequires:	sed >= 4.0
 BuildRequires:	unsermake >= 040805
+Requires:	konqueror
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -59,5 +60,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f sidebar.lang
 %defattr(644,root,root,755)
-%{_libdir}/kde3/*
-%{_datadir}/apps/*
+%attr(755,root,root) %{_libdir}/kde3/konqsidebar_metabar.so
+%{_libdir}/kde3/konqsidebar_metabar.la
+%{_datadir}/apps/konqsidebartng/add/*.desktop
+%{_datadir}/apps/konqsidebartng/entries/*.desktop
