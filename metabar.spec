@@ -1,4 +1,5 @@
 Summary:	Konqueror's Sidebar
+Summary(pl):	Panel nawigacyjny dla Konquerora
 Name:		metabar
 Version:	0.5
 Release:	1
