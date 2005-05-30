@@ -1,12 +1,12 @@
 Summary:	Konqueror's Sidebar
 Summary(pl):	Panel nawigacyjny dla Konquerora
 Name:		metabar
-Version:	0.5
+Version:	0.7
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/metabar/%{name}-%{version}.tar.gz
-# Source0-md5:  cf69531eb967caac6ea42ba47513d364
+# Source0-md5:	4f43f62b831e343e8598e9d130c21699
 # http://metabar.sourceforge.net/ in future
 URL:		http://sourceforge.net/projects/metabar/
 BuildRequires:	autoconf
