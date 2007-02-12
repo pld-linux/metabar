@@ -1,5 +1,5 @@
 Summary:	Konqueror's Sidebar
-Summary(pl):	Panel nawigacyjny dla Konquerora
+Summary(pl.UTF-8):   Panel nawigacyjny dla Konquerora
 Name:		metabar
 Version:	0.7
 Release:	1
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A sidebar plugin for KDE's Konqueror which shows information and
 actions for selected files and directories.
 
-%description -l pl
+%description -l pl.UTF-8
 Wtyczka do panelu nawigacyjnego konquerora
 
 %prep
